@@ -43,13 +43,13 @@ To learn more about the grunt tasks, run `grunt --help` and also read our
 
 [![Analytics](https://ga-beacon.appspot.com/UA-8594346-11/angular.js/README.md?pixel)](https://github.com/igrigorik/ga-beacon)
 
-##Introduction for non-developer
-
-AngularJS is an open-source JavaScript framework that lets you develop client-side web applications using the amicable HTML as your template language. HTML is great for structuring static web page but falters when it is used for building dynamic web content. To address this issue, AngularJS adapts and extends on the traditional HTML syntax, lets you attach behavior to an otherwise static element through framework built-in or user defined angular directives - Angular flavored HTML tag attributes that can be embedded in the HTML page. 
-
-The most notable feature of the framework is its two-way data binding, which means changes in the model (your Javascript object) automatically propagate to the view (the user interface), likewise, any alteration to the view are reflected in the model. This automatic synchronization of models and views circumvents the need to constantly manipulate DOM and relieves the backend server a large part of templating responsibility, leading to improved testability and a more responsive web experience.
-
+Introduction for Non-Developers
+---------
+ 
+AngularJS is an open-source JavaScript framework that lets you develop client-side web applications using the amicable HTML as your template language. HTML is great for structuring static web page but falters when it is used for building dynamic web content. To address this issue, AngularJS adapts and extends on the traditional HTML syntax, lets you attach behavior to an otherwise static element through framework built-in or _AngularJS flavored new HTML tag or tag attributes_, called AngularJS Directives, that can be embedded in the HTML page. Some very powerful AngularJS Directives come built-in and many more can be invented by the application developer. This is one of the way AngularJS gives the power in the hands of programmers using it.
+ 
+The most notable feature of the framework is its two-way data binding, which means changes in the Model (data, your JavaScript object) automatically propagate to the View (the user interface), likewise, any alteration to the View is reflected in the Model. This automatic synchronization of Models and Views circumvents the need to constantly manipulate DOM and relieves the backend server of changing and updating any of them manually, leading to improved testability and a more responsive/fluid web experience.
+ 
 AngularJS implements dependency injection to declaratively describe how your software components should be connected, this approach brings traditionally server-side actions to the front-end web application, consequently, much of the burden on the server can be reduced.
-
-The goal of AngularJS is to relieves you from worrying about DOM manipulation, and to decouples the client side of an application from the server side to make it possible for development work to progress in parallel, the framework also provides structure for the entire journey of building a web application: from creating the UI, through writing the underlying model, to testing.
-
+ 
+The goal of AngularJS is to relieve you from worrying about DOM manipulation, and to decouple the client side of an application from the server side to make it possible for development work to progress in parallel, the framework also provides structure for the entire journey of building a web application: from creating the UI, through writing the underlying model and testing.
