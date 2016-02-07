@@ -43,3 +43,13 @@ To learn more about the grunt tasks, run `grunt --help` and also read our
 
 [![Analytics](https://ga-beacon.appspot.com/UA-8594346-11/angular.js/README.md?pixel)](https://github.com/igrigorik/ga-beacon)
 
+##Introduction for non-developer
+
+AngularJS is an open-source JavaScript framework that lets you develop client-side web applications using the amicable HTML as your template language. HTML is great for structuring static web page but falters when it is used for building dynamic web content. To address this issue, AngularJS adapts and extends on the traditional HTML syntax, lets you attach behavior to an otherwise static element through framework built-in or user defined angular directives - Angular flavored HTML tag attributes that can be embedded in the HTML page. 
+
+The most notable feature of the framework is its two-way data binding, which means changes in the model (your Javascript object) automatically propagate to the view (the user interface), likewise, any alteration to the view are reflected in the model. This automatic synchronization of models and views circumvents the need to constantly manipulate DOM and relieves the backend server a large part of templating responsibility, leading to improved testability and a more responsive web experience.
+
+AngularJS implements dependency injection to declaratively describe how your software components should be connected, this approach brings traditionally server-side actions to the front-end web application, consequently, much of the burden on the server can be reduced.
+
+The goal of AngularJS is to relieves you from worrying about DOM manipulation, and to decouples the client side of an application from the server side to make it possible for development work to progress in parallel, the framework also provides structure for the entire journey of building a web application: from creating the UI, through writing the underlying model, to testing.
+
